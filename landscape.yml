@@ -32,10 +32,11 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
           - item:
             name: RAW to ACES Utility
+            project: incubating
             homepage_url: https://github.com/ampas/rawtoaces
             repo_url: https://github.com/ampas/rawtoaces
             logo: rawtoaces.svg
-            crunchbase: https://www.crunchbase.com/organization/the-academy-of-motion-picture-arts-and-sciences
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
       - subcategory:
         name: Image Formats, I/O, and Processing Libraries
         items:
@@ -49,12 +50,14 @@ landscape:
             name: Imagemagick
             homepage_url: https://imagemagick.org/script/index.php
             repo_url: https://github.com/ImageMagick/ImageMagick
+            project_org: https://github.com/ImageMagick
             logo: ImageMagick_logo.svg
             crunchbase: https://www.crunchbase.com/organization/imagemagick-studio-llc
           - item:
             name: OpenCV
             homepage_url: https://opencv.org
             repo_url: https://github.com/opencv/opencv
+            project_org: https://github.com/opencv
             logo: opencv.svg
             twitter: https://twitter.com/opencvlibrary
             crunchbase: https://www.crunchbase.com/organization/open-source-vision-foundation
@@ -63,12 +66,18 @@ landscape:
             homepage_url: https://www.openexr.com/
             project: graduated
             repo_url: https://github.com/AcademySoftwareFoundation/openexr
+            additional_repos:
+              - repo_url: https://github.com/AcademySoftwareFoundation/Imath
+              - repo_url: https://github.com/AcademySoftwareFoundation/openexr-website
+              - repo_url: https://github.com/AcademySoftwareFoundation/openexr-examples
+              - repo_url: https://github.com/AcademySoftwareFoundation/openexr-images
             logo: open-exr.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
           - item:
             name: OpenImageIO
             homepage_url: https://sites.google.com/site/openimageio/home
             repo_url: https://github.com/OpenImageIO/oiio
+            project_org: https://github.com/OpenImageIO
             logo: open-image-io.svg
             twitter: null
             crunchbase: https://www.crunchbase.com/organization/openimageio
@@ -76,6 +85,7 @@ landscape:
             name: OpenMVG
             homepage_url: http://opensource.mikrosimage.eu/
             repo_url: https://github.com/openMVG/openMVG
+            project_org: https://github.com/openMVG
             logo: open-mvg.svg
             crunchbase: https://www.crunchbase.com/organization/mikros-image
           - item:
@@ -168,6 +178,7 @@ landscape:
             name: Natron
             homepage_url: https://natrongithub.github.io/
             repo_url: https://github.com/NatronGitHub/Natron
+            project_org: https://github.com/NatronGitHub
             logo: natron.svg
             crunchbase: https://www.crunchbase.com/organization/natron
           - item:
@@ -192,6 +203,7 @@ landscape:
             name: Alembic
             homepage_url: http://www.alembic.io
             repo_url: https://github.com/alembic/alembic
+            project_org: https://github.com/alembic
             logo: alembic.svg
             crunchbase: https://www.crunchbase.com/organization/lucasfilm
           - item:
@@ -292,6 +304,7 @@ landscape:
             homepage_url: https://www.blender.org/
             repo_url: https://github.com/blender/blender
             logo: blender.svg
+            project_org: https://github.com/blender
             twitter: https://twitter.com/blender
             crunchbase: https://www.crunchbase.com/organization/blender-org
           - item:
@@ -299,6 +312,7 @@ landscape:
             homepage_url: https://www.cg-wire.com/
             repo_url: https://github.com/cgwire/kitsu
             logo: cgwire.svg
+            project_org: https://github.com/cgwire
             crunchbase: https://www.crunchbase.com/organization/cgwire
           - item:
             name: Cortex
@@ -338,6 +352,7 @@ landscape:
             name: ForestFlow
             homepage_url: https://github.com/ForestFlow/ForestFlow
             repo_url: https://github.com/ForestFlow/ForestFlow
+            project_org: https://github.com/ForestFlow
             logo: forestflow.svg
             twitter: https://twitter.com/dwanimation
             crunchbase: https://www.crunchbase.com/organization/dreamworks-studios
@@ -345,6 +360,7 @@ landscape:
             name: Munki
             homepage_url: https://www.munki.org/munki/
             repo_url: https://github.com/munki/munki
+            project_org: https://github.com/munki
             logo: munki.svg
             crunchbase: https://www.crunchbase.com/organization/walt-disney-animation-studios
           - item:
@@ -393,6 +409,7 @@ landscape:
             name: Embree
             homepage_url: https://www.embree.org
             repo_url: https://github.com/embree/embree
+            project_org: https://github.com/embree
             logo: embree.svg
             twitter: https://twitter.com/IntelSoftware
             crunchbase: https://www.crunchbase.com/organization/intel
@@ -401,6 +418,7 @@ landscape:
             homepage_url: http://www.materialx.org/
             project: graduated
             repo_url: https://github.com/materialx/MaterialX
+            project_org: https://github.com/materialx
             logo: materialx.svg
             twitter: https://twitter.com/MaterialXCG
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
@@ -431,6 +449,7 @@ landscape:
             name: CGRU
             homepage_url: https://cgru.info/
             repo_url: https://github.com/CGRU/cgru
+            project_org: https://github.com/CGRU
             logo: cgru.svg
             crunchbase: https://www.crunchbase.com/organization/cgru
           - item:
@@ -438,6 +457,8 @@ landscape:
             homepage_url: https://www.opencue.io/
             project: graduated
             repo_url: https://github.com/AcademySoftwareFoundation/OpenCue
+            additional_repos:
+              - repo_url: https://github.com/AcademySoftwareFoundation/opencue.io
             logo: opencue.svg
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
   - category:
@@ -464,6 +485,8 @@ landscape:
             project: graduated
             repo_url: https://github.com/AcademySoftwareFoundation/openvdb
             logo: openvdb.svg
+            additional_repos:
+              - repo_url: https://github.com/AcademySoftwareFoundation/openvdb-website
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
           - item:
             name: Partio
@@ -484,6 +507,7 @@ landscape:
             name: Bullet Physics
             homepage_url: https://pybullet.org/wordpress
             repo_url: https://github.com/bulletphysics/bullet3
+            project_org: https://github.com/bulletphysics
             logo: bullet.svg
             crunchbase: https://www.crunchbase.com/organization/bullet-physics
       - subcategory:
@@ -499,6 +523,7 @@ landscape:
             name: CGAL (Computational Geometry Algorithms Library)
             homepage_url: https://www.cgal.org/
             repo_url: https://github.com/CGAL/cgal
+            project_org: https://github.com/CGAL
             logo: cgal.svg
             crunchbase: https://www.crunchbase.com/organization/computational-geometry-algorithms-library
           - item:

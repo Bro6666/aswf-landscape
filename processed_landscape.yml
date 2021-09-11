@@ -253,27 +253,32 @@ landscape:
               latest_tweet_date: 2021-09-08T18:03:05.000Z
           - item:
             name: RAW to ACES Utility
+            project: incubating
             homepage_url: https://github.com/ampas/rawtoaces
             repo_url: https://github.com/ampas/rawtoaces
             logo: rawtoaces.svg
-            crunchbase: https://www.crunchbase.com/organization/the-academy-of-motion-picture-arts-and-sciences
+            crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
             crunchbase_data:
-              name: Academy of Motion Picture Arts and Sciences
-              description: Academy of Motion Picture Arts and Sciences is a movie-related organization with a goal of advancing arts and sciences of motion pictures.
-              num_employees_min: 251
-              num_employees_max: 500
-              homepage: https://www.oscars.org/
-              city: Beverly Hills
+              name: Academy Software Foundation
+              description: Academy Software Foundation is an open source foundation intended for developers in the motion picture and media space.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.aswf.io
+              city: San Francisco
               region: California
               country: United States
-              twitter: https://twitter.com/theacademy
-              linkedin: https://www.linkedin.com/company/academy-of-motion-picture-arts-and-sciences/
+              twitter: https://twitter.com/AcademySwf
+              linkedin: https://www.linkedin.com/company/academysoftwarefoundation/
               acquisitions: []
-              parents: []
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
               stockExchange: null
-              company_type: For Profit
+              company_type: Non Profit
               industries:
-                - Association
+                - Film
+                - Media and Entertainment
+                - Open Source
+                - Software
             github_data:
               languages:
                 - name: C++
@@ -306,7 +311,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-08T17:51:03.000Z
+              latest_tweet_date: 2021-09-08T18:03:05.000Z
       - subcategory:
         name: Image Formats, I/O, and Processing Libraries
         items:
@@ -364,6 +369,7 @@ landscape:
             name: Imagemagick
             homepage_url: https://imagemagick.org/script/index.php
             repo_url: https://github.com/ImageMagick/ImageMagick
+            project_org: https://github.com/ImageMagick
             logo: ImageMagick_logo.svg
             crunchbase: https://www.crunchbase.com/organization/imagemagick-studio-llc
             crunchbase_data:
@@ -383,55 +389,282 @@ landscape:
               company_type: For Profit
               industries: []
             github_data:
+              description: © 1999-2021 ImageMagick Studio LLC
+              contributors_count: 141
+              contributions: >-
+                99;67;85;63;41;47;59;38;68;215;146;95;84;63;96;148;131;144;148;60;113;111;96;80;66;40;39;80;34;44;48;43;40;54;59;49;8;109;87;59;51;17;57;53;71;31;2;23;37;27;33;78
+              stars: 6323
               languages:
                 - name: C
-                  value: 18193106
+                  value: 151188116
                   color: '#555555'
-                - name: HTML
-                  value: 12027423
-                  color: '#e34c26'
                 - name: C++
-                  value: 5007070
+                  value: 32266814
                   color: '#f34b7d'
+                - name: HTML
+                  value: 27810162
+                  color: '#e34c26'
                 - name: Makefile
-                  value: 1357804
+                  value: 11130010
                   color: '#427819'
-                - name: XS
-                  value: 498128
                 - name: Shell
-                  value: 449401
+                  value: 10663226
                   color: '#89e051'
+                - name: Assembly
+                  value: 3827935
+                  color: '#6E4C13'
                 - name: Roff
-                  value: 255327
+                  value: 3422080
                   color: '#ecdebe'
+                - name: PHP
+                  value: 3211222
+                  color: '#4F5D95'
+                - name: Python
+                  value: 1988767
+                  color: '#3572A5'
                 - name: M4
-                  value: 250772
+                  value: 1899570
+                - name: Hack
+                  value: 1341094
+                  color: '#878787'
+                - name: CMake
+                  value: 1094424
                 - name: Perl
-                  value: 215950
+                  value: 977682
                   color: '#0298c3'
-                - name: Tcl
-                  value: 20736
-                  color: '#e4cc98'
-                - name: DIGITAL Command Language
-                  value: 17772
+                - name: XS
+                  value: 974333
+                - name: Smalltalk
+                  value: 455754
+                  color: '#596706'
+                - name: Meson
+                  value: 415405
+                  color: '#007800'
+                - name: Java
+                  value: 330352
+                  color: '#b07219'
+                - name: TeX
+                  value: 328556
+                  color: '#3D6117'
+                - name: Pascal
+                  value: 199093
+                  color: '#E3F171'
+                - name: Objective-C
+                  value: 168954
+                  color: '#438eff'
                 - name: CSS
-                  value: 11438
+                  value: 161475
                   color: '#563d7c'
-              contributions: >-
-                35;24;21;26;19;17;18;24;32;37;58;84;39;26;35;58;59;45;77;31;26;45;25;17;45;15;16;21;11;22;27;27;8;21;39;39;6;18;8;21;21;6;20;37;38;22;2;4;30;11;15;48
+                - name: DIGITAL Command Language
+                  value: 117964
+                - name: POV-Ray SDL
+                  value: 117651
+                - name: Ada
+                  value: 89079
+                  color: '#02f88c'
+                - name: JavaScript
+                  value: 86660
+                  color: '#f1e05a'
+                - name: Tcl
+                  value: 70101
+                  color: '#e4cc98'
+                - name: Rich Text Format
+                  value: 60802
+                - name: C#
+                  value: 58613
+                  color: '#178600'
+                - name: Visual Basic
+                  value: 52934
+                  color: '#945db7'
+                - name: Go
+                  value: 50098
+                  color: '#00ADD8'
+                - name: Batchfile
+                  value: 49243
+                  color: '#C1F12E'
+                - name: Awk
+                  value: 49160
+                - name: Inno Setup
+                  value: 41917
+                - name: XSLT
+                  value: 40866
+                  color: '#EB8CEB'
+                - name: Raku
+                  value: 36118
+                - name: Ragel
+                  value: 32927
+                  color: '#9d5200'
+                - name: Starlark
+                  value: 11240
+                - name: Elixir
+                  value: 9798
+                  color: '#6e4a7e'
+                - name: SWIG
+                  value: 9456
+                - name: Lua
+                  value: 7756
+                  color: '#000080'
+                - name: Clean
+                  value: 6801
+                  color: '#3F85AF'
+                - name: QMake
+                  value: 6000
+                - name: Dockerfile
+                  value: 4455
+                  color: '#384d54'
+                - name: VCL
+                  value: 4153
+                  color: '#148AA8'
+                - name: Module Management System
+                  value: 3618
+                - name: DTrace
+                  value: 3607
+                - name: PowerShell
+                  value: 2761
+                  color: '#012456'
+                - name: SAS
+                  value: 1847
+                  color: '#B34936'
+                - name: Vala
+                  value: 1452
+                  color: '#fbe5cd'
+                - name: MATLAB
+                  value: 1037
+                  color: '#e16737'
+                - name: sed
+                  value: 976
+                  color: '#64b970'
+                - name: Prolog
+                  value: 588
+                  color: '#74283c'
+                - name: Max
+                  value: 296
+                  color: '#c4a79c'
+                - name: GDB
+                  value: 135
+                - name: Emacs Lisp
+                  value: 41
+                  color: '#c065db'
+              latest_commit_link: /ImageMagick/ImageMagick/commit/6920157d93973bc8f75bc60fa2f22da5127f1f4b
+              latest_commit_date: '2021-09-11T10:42:48Z'
               firstWeek: 2020-09-13Z
-              stars: 5945
               license: Other
-              description: 🧙‍♂️ ImageMagick 7
-              latest_commit_date: '2021-09-07T20:04:35Z'
-              latest_commit_link: /ImageMagick/ImageMagick/commit/0b295fbcf5d69a4388f67df55a7dbd468f5786e8
-              release_date: '2021-09-05T07:04:13Z'
-              release_link: https://github.com/ImageMagick/ImageMagick/releases
-              contributors_count: 127
               contributors_link: https://github.com/ImageMagick/ImageMagick/graphs/contributors
             repos:
               - url: https://github.com/ImageMagick/ImageMagick
-                stars: 5945
+                stars: 5956
+              - url: https://github.com/ImageMagick/ImageMagick6
+                stars: 118
+              - url: https://github.com/ImageMagick/ImageMagick-Windows
+                stars: 68
+              - url: https://github.com/ImageMagick/PythonMagick
+                stars: 51
+              - url: https://github.com/ImageMagick/VisualMagick
+                stars: 19
+              - url: https://github.com/ImageMagick/Website
+                stars: 19
+              - url: https://github.com/ImageMagick/librsvg
+                stars: 10
+              - url: https://github.com/ImageMagick/Usage-Markdown
+                stars: 8
+              - url: https://github.com/ImageMagick/libheif
+                stars: 7
+              - url: https://github.com/ImageMagick/jpeg-xl
+                stars: 6
+              - url: https://github.com/ImageMagick/pango
+                stars: 5
+              - url: https://github.com/ImageMagick/webp
+                stars: 5
+              - url: https://github.com/ImageMagick/jbig
+                stars: 4
+              - url: https://github.com/ImageMagick/lcms
+                stars: 4
+              - url: https://github.com/ImageMagick/WizardsToolkit
+                stars: 4
+              - url: https://github.com/ImageMagick/flif
+                stars: 4
+              - url: https://github.com/ImageMagick/MagickStudio
+                stars: 4
+              - url: https://github.com/ImageMagick/libfpx
+                stars: 4
+              - url: https://github.com/ImageMagick/jpeg-turbo
+                stars: 3
+              - url: https://github.com/ImageMagick/png
+                stars: 3
+              - url: https://github.com/ImageMagick/freetype
+                stars: 3
+              - url: https://github.com/ImageMagick/libde265
+                stars: 3
+              - url: https://github.com/ImageMagick/cairo
+                stars: 2
+              - url: https://github.com/ImageMagick/pixman
+                stars: 2
+              - url: https://github.com/ImageMagick/bzlib
+                stars: 1
+              - url: https://github.com/ImageMagick/exr
+                stars: 1
+              - url: https://github.com/ImageMagick/glib
+                stars: 1
+              - url: https://github.com/ImageMagick/libxml
+                stars: 1
+              - url: https://github.com/ImageMagick/openjpeg
+                stars: 1
+              - url: https://github.com/ImageMagick/tiff
+                stars: 1
+              - url: https://github.com/ImageMagick/MagickWandForPHP
+                stars: 1
+              - url: https://github.com/ImageMagick/Website6
+                stars: 1
+              - url: https://github.com/ImageMagick/libzip
+                stars: 1
+              - url: https://github.com/ImageMagick/Usage
+                stars: 1
+              - url: https://github.com/ImageMagick/highway
+                stars: 1
+              - url: https://github.com/ImageMagick/contrib
+                stars: 0
+              - url: https://github.com/ImageMagick/croco
+                stars: 0
+              - url: https://github.com/ImageMagick/ffi
+                stars: 0
+              - url: https://github.com/ImageMagick/jp2
+                stars: 0
+              - url: https://github.com/ImageMagick/lqr
+                stars: 0
+              - url: https://github.com/ImageMagick/win2k
+                stars: 0
+              - url: https://github.com/ImageMagick/zlib
+                stars: 0
+              - url: https://github.com/ImageMagick/dcraw
+                stars: 0
+              - url: https://github.com/ImageMagick/LibRaw
+                stars: 0
+              - url: https://github.com/ImageMagick/Multipole
+                stars: 0
+              - url: https://github.com/ImageMagick/liblzma
+                stars: 0
+              - url: https://github.com/ImageMagick/ImageMagick-Windows6
+                stars: 0
+              - url: https://github.com/ImageMagick/VisualMagick6
+                stars: 0
+              - url: https://github.com/ImageMagick/contrib6
+                stars: 0
+              - url: https://github.com/ImageMagick/win2k6
+                stars: 0
+              - url: https://github.com/ImageMagick/msttcorefonts
+                stars: 0
+              - url: https://github.com/ImageMagick/aom
+                stars: 0
+              - url: https://github.com/ImageMagick/fribidi
+                stars: 0
+              - url: https://github.com/ImageMagick/harfbuzz
+                stars: 0
+              - url: https://github.com/ImageMagick/brotli
+                stars: 0
+              - url: https://github.com/ImageMagick/MagickCache
+                stars: 0
+              - url: https://github.com/ImageMagick/raqm
+                stars: 0
             github_start_commit_data:
               start_commit_link: /ImageMagick/ImageMagick/commit/3ed852eea50f9d4cd633efb8c2b054b8e33c2530
               start_date: '2009-09-05T21:47:34Z'
@@ -447,6 +680,7 @@ landscape:
             name: OpenCV
             homepage_url: https://opencv.org
             repo_url: https://github.com/opencv/opencv
+            project_org: https://github.com/opencv
             logo: opencv.svg
             twitter: https://twitter.com/opencvlibrary
             crunchbase: https://www.crunchbase.com/organization/open-source-vision-foundation
@@ -467,54 +701,73 @@ landscape:
               company_type: Non Profit
               industries: []
             github_data:
+              description: ''
+              contributors_count: 646
+              contributions: >-
+                38;53;56;55;44;38;39;38;45;110;47;67;102;63;54;23;10;35;50;50;56;41;56;56;59;35;27;46;91;34;25;22;32;15;23;29;30;35;60;14;18;51;40;27;24;20;27;29;25;28;27;6
+              stars: 67633
               languages:
                 - name: C++
-                  value: 32905358
+                  value: 76673710
                   color: '#f34b7d'
                 - name: C
-                  value: 1535403
+                  value: 9296882
                   color: '#555555'
-                - name: CMake
-                  value: 965160
                 - name: Python
-                  value: 957372
+                  value: 2523685
                   color: '#3572A5'
-                - name: Java
-                  value: 773300
-                  color: '#b07219'
-                - name: Objective-C++
-                  value: 389537
-                  color: '#6866fb'
                 - name: Cuda
-                  value: 313049
+                  value: 2125816
                   color: '#3A4E3A'
+                - name: Java
+                  value: 1533302
+                  color: '#b07219'
+                - name: Objective-C
+                  value: 1172172
+                  color: '#438eff'
+                - name: CMake
+                  value: 1101254
+                - name: Objective-C++
+                  value: 397221
+                  color: '#6866fb'
                 - name: Swift
                   value: 299043
                   color: '#ffac45'
                 - name: JavaScript
-                  value: 232975
+                  value: 233327
                   color: '#f1e05a'
-                - name: Objective-C
-                  value: 100454
-                  color: '#438eff'
+                - name: Shell
+                  value: 97784
+                  color: '#89e051'
+                - name: Assembly
+                  value: 75281
+                  color: '#6E4C13'
+                - name: TeX
+                  value: 67631
+                  color: '#3D6117'
                 - name: HTML
                   value: 40027
                   color: '#e34c26'
-                - name: Shell
-                  value: 22738
-                  color: '#89e051'
+                - name: Julia
+                  value: 27622
+                  color: '#a270ba'
+                - name: MATLAB
+                  value: 17543
+                  color: '#e16737'
+                - name: Jupyter Notebook
+                  value: 16201
+                  color: '#DA5B0B'
                 - name: Perl
                   value: 15865
                   color: '#0298c3'
                 - name: PowerShell
                   value: 14591
                   color: '#012456'
+                - name: OpenEdge ABL
+                  value: 10059
                 - name: Kotlin
                   value: 5118
                   color: '#F18E33'
-                - name: TeX
-                  value: 3438
-                  color: '#3D6117'
                 - name: AIDL
                   value: 1986
                 - name: Batchfile
@@ -526,24 +779,37 @@ landscape:
                 - name: Dockerfile
                   value: 309
                   color: '#384d54'
-              contributions: >-
-                18;38;49;45;37;31;27;14;33;73;38;54;59;62;60;23;9;23;31;36;35;31;41;51;53;33;23;27;56;44;20;17;26;16;12;22;22;35;52;14;18;22;40;22;17;17;17;27;19;24;20;5
+              latest_commit_link: /opencv/opencv/commit/c7e0888982a4d95b17ed46c7f8c4f1b3c3d81a95
+              latest_commit_date: '2021-09-09T21:23:49Z'
               firstWeek: 2020-09-13Z
-              stars: 56545
               license: Other
-              description: Open Source Computer Vision Library
-              latest_commit_date: '2021-09-08T07:26:21Z'
-              latest_commit_link: /opencv/opencv/commit/5ac5da35249e0e8e1f787f7f44f5de6e74297c1a
-              release_date: '2021-07-05T23:40:18Z'
-              release_link: https://github.com/opencv/opencv/releases
-              contributors_count: 1794
               contributors_link: https://github.com/opencv/opencv/graphs/contributors
             repos:
               - url: https://github.com/opencv/opencv
-                stars: 56545
+                stars: 56580
+              - url: https://github.com/opencv/opencv_contrib
+                stars: 6844
+              - url: https://github.com/opencv/opencv-python
+                stars: 2199
+              - url: https://github.com/opencv/opencv_extra
+                stars: 757
+              - url: https://github.com/opencv/opencv_for_ios_book_samples
+                stars: 652
+              - url: https://github.com/opencv/opencv_3rdparty
+                stars: 400
+              - url: https://github.com/opencv/open_vision_capsules
+                stars: 74
+              - url: https://github.com/opencv/opencv_attic
+                stars: 41
+              - url: https://github.com/opencv/ade
+                stars: 37
+              - url: https://github.com/opencv/jetson-screencasts-sources
+                stars: 31
+              - url: https://github.com/opencv/opencv_zoo
+                stars: 18
             github_start_commit_data:
-              start_commit_link: /opencv/opencv/commit/127d6649a1c83397bf42799ac807af41aa507b30
-              start_date: '2010-05-11T17:44:00Z'
+              start_commit_link: /opencv/opencv_attic/commit/3ba6907394e981ea84b16e02feed9ff055c0ef98
+              start_date: '2001-03-15T22:11:39Z'
             image_data:
               fileName: open-cv.svg
               hash: FV3CybRSnSnyW7ApDhPGu5mwuUDLWS3XnUrDfAtjPZ8=
@@ -583,42 +849,50 @@ landscape:
             github_data:
               languages:
                 - name: C
-                  value: 9352542
+                  value: 10386620
                   color: '#555555'
                 - name: C++
-                  value: 3568590
+                  value: 5430483
                   color: '#f34b7d'
                 - name: CMake
-                  value: 66117
+                  value: 123306
                 - name: M4
                   value: 26295
                 - name: Starlark
                   value: 16478
                 - name: Shell
-                  value: 10024
+                  value: 15164
                   color: '#89e051'
+                - name: PowerShell
+                  value: 9704
+                  color: '#012456'
                 - name: Batchfile
                   value: 6522
                   color: '#C1F12E'
-                - name: PowerShell
-                  value: 4852
-                  color: '#012456'
-              contributions: 3;2;1;3;6;2;13;0;10;0;5;3;0;0;0;2;1;4;5;2;8;5;5;6;11;6;18;1;8;1;2;0;0;0;9;5;3;1;9;4;4;11;2;5;7;6;7;4;1;2;5;4
+              contributions: 1;5;0;6;5;2;17;1;9;5;0;6;4;3;0;3;1;11;2;5;10;9;10;14;11;6;32;3;10;4;1;0;0;9;3;8;4;16;5;8;12;7;5;12;7;11;7;1;2;7;6;7
               firstWeek: 2020-09-13Z
-              stars: 1077
+              stars: 1265
               license: Other
               description: >-
                 The OpenEXR project provides the specification and reference implementation of the EXR file format, the professional-grade image storage format
                 of the motion picture industry.
-              latest_commit_date: '2021-09-07T08:31:59Z'
-              latest_commit_link: /AcademySoftwareFoundation/openexr/commit/ee35a19888d20c5e794b8e7edb82b93accd978c7
+              latest_commit_date: '2021-09-09T14:15:48Z'
+              latest_commit_link: /AcademySoftwareFoundation/openexr/commit/a4c24a865363f0c21d4ad7ae19fb4072c08be7f0
               release_date: '2021-08-03T01:10:27Z'
               release_link: https://github.com/AcademySoftwareFoundation/openexr/releases
-              contributors_count: 98
+              contributors_count: 80
               contributors_link: https://github.com/AcademySoftwareFoundation/openexr/graphs/contributors
             repos:
               - url: https://github.com/AcademySoftwareFoundation/openexr
-                stars: 1077
+                stars: 1081
+              - url: https://github.com/AcademySoftwareFoundation/Imath
+                stars: 117
+              - url: https://github.com/AcademySoftwareFoundation/openexr-images
+                stars: 63
+              - url: https://github.com/AcademySoftwareFoundation/openexr-examples
+                stars: 4
+              - url: https://github.com/AcademySoftwareFoundation/openexr-website
+                stars: 0
             github_start_commit_data:
               start_commit_link: /AcademySoftwareFoundation/openexr/commit/6e37ef8aed4e20ea834f570845533b65a97a3bc4
               start_date: '2003-01-21T06:34:28Z'
@@ -634,6 +908,7 @@ landscape:
             name: OpenImageIO
             homepage_url: https://sites.google.com/site/openimageio/home
             repo_url: https://github.com/OpenImageIO/oiio
+            project_org: https://github.com/OpenImageIO
             logo: open-image-io.svg
             twitter: null
             crunchbase: https://www.crunchbase.com/organization/openimageio
@@ -654,6 +929,10 @@ landscape:
               company_type: Non Profit
               industries: []
             github_data:
+              description: null
+              contributors_count: 149
+              contributions: 7;3;9;5;4;7;7;9;5;3;4;2;11;3;3;4;10;8;9;9;11;2;11;2;7;3;12;11;9;3;5;6;4;7;5;4;7;9;8;8;3;15;5;7;2;6;11;4;15;8;7;2
+              stars: 1324
               languages:
                 - name: C++
                   value: 6504380
@@ -667,25 +946,21 @@ landscape:
                   value: 144403
                   color: '#555555'
                 - name: Shell
-                  value: 53030
+                  value: 58278
                   color: '#89e051'
                 - name: Makefile
                   value: 18647
                   color: '#427819'
-              contributions: 5;4;9;3;5;5;10;9;4;5;2;4;5;7;3;4;12;4;12;5;14;4;7;6;3;5;11;6;9;8;7;6;2;9;3;6;6;8;10;6;4;11;9;6;4;4;9;6;12;12;6;3
+              latest_commit_link: /OpenImageIO/oiio/commit/5506f34f8577df65ffa4695018da63deef237a21
+              latest_commit_date: '2021-09-11T05:09:40Z'
               firstWeek: 2020-09-13Z
-              stars: 1298
               license: BSD 3-Clause "New" or "Revised" License
-              description: Reading, writing, and processing images in a wide variety of file formats, using a format-agnostic API, aimed at VFX applications.
-              latest_commit_date: '2021-09-05T01:20:34Z'
-              latest_commit_link: /OpenImageIO/oiio/commit/7b22ba63058a5a4d8dc49be16e6d51fcd3762039
-              release_date: '2021-09-01T06:28:55Z'
-              release_link: https://github.com/OpenImageIO/oiio/releases
-              contributors_count: 200
               contributors_link: https://github.com/OpenImageIO/oiio/graphs/contributors
             repos:
               - url: https://github.com/OpenImageIO/oiio
-                stars: 1298
+                stars: 1299
+              - url: https://github.com/OpenImageIO/oiio-images
+                stars: 25
             github_start_commit_data:
               start_commit_link: /OpenImageIO/oiio/commit/70121c7e5dcc1e83656fd3d029d3f3a9590aae26
               start_date: '2008-04-21T20:46:21Z'
@@ -699,6 +974,7 @@ landscape:
             name: OpenMVG
             homepage_url: http://opensource.mikrosimage.eu/
             repo_url: https://github.com/openMVG/openMVG
+            project_org: https://github.com/openMVG
             logo: open-mvg.svg
             crunchbase: https://www.crunchbase.com/organization/mikros-image
             crunchbase_data:
@@ -719,20 +995,24 @@ landscape:
               industries:
                 - Media and Entertainment
             github_data:
+              description: null
+              contributors_count: 90
+              contributions: 0;0;0;0;0;4;0;0;0;0;0;0;1;0;0;1;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5
+              stars: 6950
               languages:
                 - name: C++
-                  value: 2893738
+                  value: 2892324
                   color: '#f34b7d'
                 - name: C
-                  value: 301360
+                  value: 320779
                   color: '#555555'
                 - name: CMake
-                  value: 152891
+                  value: 154701
                 - name: JavaScript
                   value: 76469
                   color: '#f1e05a'
                 - name: Python
-                  value: 13903
+                  value: 17497
                   color: '#3572A5'
                 - name: HTML
                   value: 6844
@@ -740,26 +1020,33 @@ landscape:
                 - name: CSS
                   value: 5089
                   color: '#563d7c'
-                - name: Objective-C
-                  value: 3962
-                  color: '#438eff'
                 - name: Dockerfile
                   value: 1113
                   color: '#384d54'
-              contributions: 0;0;0;0;0;1;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              latest_commit_link: /openMVG/openMVG/commit/e3d9e91727100a0d8f59b2f6b3331613385095d5
+              latest_commit_date: '2021-09-10T15:52:30Z'
               firstWeek: 2020-09-13Z
-              stars: 3730
               license: Other
-              description: open Multiple View Geometry library. Basis for 3D computer vision and Structure from Motion.
-              latest_commit_date: '2021-05-12T04:06:39Z'
-              latest_commit_link: /openMVG/openMVG/commit/8b0bc84f92e8f1a3871d997fb64b0d31c5802ab6
-              release_date: '2020-05-13T20:24:05Z'
-              release_link: https://github.com/openMVG/openMVG/releases
-              contributors_count: 95
               contributors_link: https://github.com/openMVG/openMVG/graphs/contributors
             repos:
               - url: https://github.com/openMVG/openMVG
-                stars: 3730
+                stars: 3732
+              - url: https://github.com/openMVG/awesome_3DReconstruction_list
+                stars: 3006
+              - url: https://github.com/openMVG/CameraSensorSizeDatabase
+                stars: 84
+              - url: https://github.com/openMVG/SfM_quality_evaluation
+                stars: 62
+              - url: https://github.com/openMVG/ImageDataset_SceauxCastle
+                stars: 31
+              - url: https://github.com/openMVG/Image_datasets
+                stars: 21
+              - url: https://github.com/openMVG/Features_Repeatability
+                stars: 6
+              - url: https://github.com/openMVG/Color_Harmonization_Image_Dataset
+                stars: 5
+              - url: https://github.com/openMVG/OpenMVG_SfMImageListing_Elphel_Camera
+                stars: 3
             github_start_commit_data:
               start_commit_link: /openMVG/openMVG/commit/5c5c221ca8e93a58eb1d1dd83394f75b5f43f48b
               start_date: '2013-02-08T16:21:30Z'
@@ -1667,6 +1954,7 @@ landscape:
             name: Natron
             homepage_url: https://natrongithub.github.io/
             repo_url: https://github.com/NatronGitHub/Natron
+            project_org: https://github.com/NatronGitHub
             logo: natron.svg
             crunchbase: https://www.crunchbase.com/organization/natron
             crunchbase_data:
@@ -1687,71 +1975,161 @@ landscape:
               industries:
                 - Software
             github_data:
+              description: Natron source code (including plugins and dependencies)
+              contributors_count: 254
+              contributions: 1;0;0;3;2;3;3;0;0;5;4;0;20;1;0;0;1;0;1;1;5;17;16;14;54;22;21;38;38;37;8;24;25;20;4;4;2;13;42;36;7;14;25;12;8;2;0;6;0;2;1;6
+              stars: 2932
               languages:
                 - name: C++
-                  value: 24156439
+                  value: 58505977
                   color: '#f34b7d'
+                - name: Python
+                  value: 17357407
+                  color: '#3572A5'
                 - name: C
-                  value: 1478981
+                  value: 6471107
                   color: '#555555'
+                - name: Makefile
+                  value: 2345213
+                  color: '#427819'
                 - name: Shell
-                  value: 1075337
+                  value: 2329429
                   color: '#89e051'
+                - name: GLSL
+                  value: 1455750
+                - name: Objective-C
+                  value: 464850
+                  color: '#438eff'
                 - name: Tcl
                   value: 452362
                   color: '#e4cc98'
-                - name: Python
-                  value: 276481
-                  color: '#3572A5'
-                - name: QMake
-                  value: 175209
-                - name: Qt Script
-                  value: 55948
-                - name: HTML
-                  value: 54189
-                  color: '#e34c26'
-                - name: CSS
-                  value: 17135
-                  color: '#563d7c'
-                - name: Ruby
-                  value: 15613
-                  color: '#701516'
-                - name: CMake
-                  value: 14186
-                - name: Inno Setup
-                  value: 6153
                 - name: Objective-C++
-                  value: 6042
+                  value: 397716
                   color: '#6866fb'
+                - name: QMake
+                  value: 265131
+                - name: HTML
+                  value: 201554
+                  color: '#e34c26'
+                - name: CMake
+                  value: 192920
+                - name: M4
+                  value: 122513
+                - name: Ruby
+                  value: 79239
+                  color: '#701516'
+                - name: CSS
+                  value: 73311
+                  color: '#563d7c'
+                - name: Qt Script
+                  value: 56293
+                - name: Assembly
+                  value: 37629
+                  color: '#6E4C13'
+                - name: Batchfile
+                  value: 29248
+                  color: '#C1F12E'
+                - name: Go
+                  value: 27783
+                  color: '#00ADD8'
+                - name: LiveScript
+                  value: 23854
+                  color: '#499886'
+                - name: Inno Setup
+                  value: 12033
+                - name: Roff
+                  value: 10364
+                  color: '#ecdebe'
+                - name: JavaScript
+                  value: 9741
+                  color: '#f1e05a'
                 - name: Dockerfile
                   value: 5649
                   color: '#384d54'
+                - name: SCSS
+                  value: 5316
+                - name: PHP
+                  value: 4527
+                  color: '#4F5D95'
                 - name: Perl
                   value: 3890
                   color: '#0298c3'
-                - name: Batchfile
-                  value: 1930
-                  color: '#C1F12E'
                 - name: sed
                   value: 1561
                   color: '#64b970'
-              contributions: 1;0;0;0;4;0;2;1;0;3;0;4;20;0;0;0;0;0;0;0;3;0;10;9;10;11;5;10;12;28;16;8;8;10;1;0;1;1;16;6;6;1;12;14;5;2;0;0;0;0;1;2
+                - name: Cuda
+                  value: 1112
+                  color: '#3A4E3A'
+                - name: Io
+                  value: 443
+                  color: '#a9188d'
+              latest_commit_link: /NatronGitHub/Natron/commit/a8b40b4153aad87849500855f8c9140ce98f3b77
+              latest_commit_date: '2021-09-10T23:12:53Z'
               firstWeek: 2020-09-13Z
-              stars: 2250
               license: Other
-              description: Open-source video compositing software. Node-graph based. Similar in functionalities to Adobe After Effects and Nuke by The Foundry.
-              latest_commit_date: '2021-09-06T06:11:15Z'
-              latest_commit_link: /NatronGitHub/Natron/commit/763cbb6919111b39a65a1208e313a764aa49b3bf
-              release_date: '2021-07-22T23:10:58Z'
-              release_link: https://github.com/NatronGitHub/Natron/releases
-              contributors_count: 53
               contributors_link: https://github.com/NatronGitHub/Natron/graphs/contributors
             repos:
               - url: https://github.com/NatronGitHub/Natron
-                stars: 2250
+                stars: 2259
+              - url: https://github.com/NatronGitHub/openfx-misc
+                stars: 218
+              - url: https://github.com/NatronGitHub/natron-plugins
+                stars: 189
+              - url: https://github.com/NatronGitHub/natron-python-scripting
+                stars: 77
+              - url: https://github.com/NatronGitHub/openfx
+                stars: 50
+              - url: https://github.com/NatronGitHub/openfx-opencv
+                stars: 38
+              - url: https://github.com/NatronGitHub/openfx-arena
+                stars: 25
+              - url: https://github.com/NatronGitHub/openfx-gmic
+                stars: 15
+              - url: https://github.com/NatronGitHub/openfx-vegas
+                stars: 12
+              - url: https://github.com/NatronGitHub/clut
+                stars: 11
+              - url: https://github.com/NatronGitHub/openfx-io
+                stars: 10
+              - url: https://github.com/NatronGitHub/openfx-supportext
+                stars: 5
+              - url: https://github.com/NatronGitHub/NatronGitHub.github.io
+                stars: 5
+              - url: https://github.com/NatronGitHub/stackwalker
+                stars: 2
+              - url: https://github.com/NatronGitHub/SequenceParsing
+                stars: 2
+              - url: https://github.com/NatronGitHub/qtifw
+                stars: 2
+              - url: https://github.com/NatronGitHub/audiocurve
+                stars: 2
+              - url: https://github.com/NatronGitHub/openfx-braw
+                stars: 2
+              - url: https://github.com/NatronGitHub/breakpad
+                stars: 1
+              - url: https://github.com/NatronGitHub/google-test
+                stars: 1
+              - url: https://github.com/NatronGitHub/google-mock
+                stars: 1
+              - url: https://github.com/NatronGitHub/tinydir
+                stars: 1
+              - url: https://github.com/NatronGitHub/Natron-Tests
+                stars: 1
+              - url: https://github.com/NatronGitHub/OpenColorIO-Configs
+                stars: 1
+              - url: https://github.com/NatronGitHub/google-breakpad
+                stars: 1
+              - url: https://github.com/NatronGitHub/osmesa-install
+                stars: 1
+              - url: https://github.com/NatronGitHub/installer-framework
+                stars: 0
+              - url: https://github.com/NatronGitHub/openfx-community
+                stars: 0
+              - url: https://github.com/NatronGitHub/homebrew-qt4
+                stars: 0
             github_start_commit_data:
-              start_commit_link: /NatronGitHub/Natron/commit/7f5ec1e49c017bbc66ce29713fa53342f7de29a2
-              start_date: '2013-05-06T21:00:00Z'
+              start_commit_link: /NatronGitHub/openfx/commit/0cd61763b848efa8daceccb9e19cdad98433cea4
+              start_date: '2004-04-27T12:13:45Z'
             image_data:
               fileName: natron.svg
               hash: WGunLlW1gy8XgHtL3sD6QmArrgZni+RGPAb2xK54HEw=
@@ -1901,6 +2279,7 @@ landscape:
             name: Alembic
             homepage_url: http://www.alembic.io
             repo_url: https://github.com/alembic/alembic
+            project_org: https://github.com/alembic
             logo: alembic.svg
             crunchbase: https://www.crunchbase.com/organization/lucasfilm
             crunchbase_data:
@@ -1930,38 +2309,49 @@ landscape:
                 - Video
               kind: market_cap
             github_data:
+              description: ''
+              contributors_count: 33
+              contributions: 5;1;2;0;3;1;4;0;2;2;4;2;1;0;2;0;0;0;0;0;0;1;3;1;4;9;6;2;1;8;4;1;1;4;1;4;5;0;6;0;0;0;0;0;2;0;0;0;2;0;0;0
+              stars: 899
               languages:
                 - name: C++
-                  value: 4844916
+                  value: 5007648
                   color: '#f34b7d'
                 - name: Python
-                  value: 559119
+                  value: 940934
                   color: '#3572A5'
                 - name: CMake
-                  value: 167441
+                  value: 227540
                 - name: C
-                  value: 129230
+                  value: 139617
                   color: '#555555'
+                - name: HTML
+                  value: 38992
+                  color: '#e34c26'
                 - name: Shell
                   value: 2507
                   color: '#89e051'
+                - name: QMake
+                  value: 464
                 - name: Dockerfile
                   value: 231
                   color: '#384d54'
-              contributions: 2;5;3;0;3;1;2;0;0;2;4;1;2;0;2;0;0;0;0;0;0;1;2;2;4;9;6;0;3;8;4;1;0;5;1;3;3;0;2;0;0;0;0;0;2;0;0;0;2;0;0;0
-              firstWeek: 2020-09-13Z
-              stars: 782
-              license: Other
-              description: Alembic is an open framework for storing and sharing scene data that includes a C++ library, a file format, and client plugins and applications.
-              latest_commit_date: '2021-08-16T16:07:13Z'
               latest_commit_link: /alembic/alembic/commit/6245d10e007d75ea7802a22c3e1899706b84698f
-              release_date: '2021-06-09T00:24:53Z'
-              release_link: https://github.com/alembic/alembic/releases
-              contributors_count: 45
+              latest_commit_date: '2021-08-16T16:07:13Z'
+              firstWeek: 2020-09-13Z
+              license: Other
               contributors_link: https://github.com/alembic/alembic/graphs/contributors
             repos:
               - url: https://github.com/alembic/alembic
                 stars: 782
+              - url: https://github.com/alembic/abcview
+                stars: 61
+              - url: https://github.com/alembic/cask
+                stars: 54
+              - url: https://github.com/alembic/alembic-docs
+                stars: 2
+              - url: https://github.com/alembic/alembic-io
+                stars: 0
             github_start_commit_data:
               start_commit_link: /alembic/alembic/commit/b7a7f142ae9a2faced93597adde234b0475a36f0
               start_date: '2010-07-27T18:27:07Z'
@@ -3164,6 +3554,7 @@ landscape:
             homepage_url: https://www.blender.org/
             repo_url: https://github.com/blender/blender
             logo: blender.svg
+            project_org: https://github.com/blender
             twitter: https://twitter.com/blender
             crunchbase: https://www.crunchbase.com/organization/blender-org
             crunchbase_data:
@@ -3187,22 +3578,27 @@ landscape:
                 - Software
               kind: funding
             github_data:
+              description: ''
+              contributors_count: 248
+              contributions: >-
+                265;181;171;202;182;260;224;321;192;170;99;150;189;178;74;55;155;204;224;267;194;193;215;194;191;192;236;235;200;95;156;189;225;175;169;184;166;137;174;153;149;161;162;152;154;152;169;139;127;149;116;109
+              stars: 3548
               languages:
                 - name: C
                   value: 53567696
                   color: '#555555'
+                - name: Python
+                  value: 27350966
+                  color: '#3572A5'
                 - name: C++
                   value: 16151529
                   color: '#f34b7d'
-                - name: Python
-                  value: 4767885
-                  color: '#3572A5'
                 - name: CMake
                   value: 1088777
                 - name: GLSL
-                  value: 832131
+                  value: 832979
                 - name: Shell
-                  value: 161848
+                  value: 162357
                   color: '#89e051'
                 - name: Objective-C++
                   value: 144776
@@ -3210,6 +3606,14 @@ landscape:
                 - name: Objective-C
                   value: 130813
                   color: '#438eff'
+                - name: POV-Ray SDL
+                  value: 110659
+                - name: HTML
+                  value: 47270
+                  color: '#e34c26'
+                - name: JavaScript
+                  value: 45976
+                  color: '#f1e05a'
                 - name: Cuda
                   value: 40359
                   color: '#3A4E3A'
@@ -3219,25 +3623,38 @@ landscape:
                 - name: Makefile
                   value: 18483
                   color: '#427819'
+                - name: PHP
+                  value: 16267
+                  color: '#4F5D95'
+                - name: CSS
+                  value: 13202
+                  color: '#563d7c'
                 - name: Slash
                   value: 4513
                   color: '#007eff'
                 - name: AppleScript
                   value: 912
                   color: '#101F1F'
-              contributions: >-
-                245;173;135;207;179;195;229;237;256;180;95;110;146;197;100;41;110;174;203;244;193;164;205;200;151;198;214;238;210;89;124;187;162;206;170;162;127;170;162;140;159;145;157;117;147;115;180;141;98;148;119;86
+              latest_commit_link: /blender/blender/commit/4e78b89e487e9b9707d583c6b2578ad122c59d5e
+              latest_commit_date: '2021-09-11T11:05:20Z'
               firstWeek: 2020-09-13Z
-              stars: 3315
               license: Other
-              description: Official mirror of Blender
-              latest_commit_date: '2021-09-09T04:05:35Z'
-              latest_commit_link: /blender/blender/commit/c8f80453d5c8e7004b46b866ca9923ce59766c7b
-              contributors_count: 665
               contributors_link: https://github.com/blender/blender/graphs/contributors
             repos:
               - url: https://github.com/blender/blender
-                stars: 3315
+                stars: 3331
+              - url: https://github.com/blender/blender-addons
+                stars: 99
+              - url: https://github.com/blender/blender-dev-tools
+                stars: 32
+              - url: https://github.com/blender/blender-addons-contrib
+                stars: 30
+              - url: https://github.com/blender/docs.blender.org
+                stars: 27
+              - url: https://github.com/blender/blender-translations
+                stars: 16
+              - url: https://github.com/blender/mediawiki-bootstrap
+                stars: 13
             github_start_commit_data:
               start_commit_link: /blender/blender/commit/12315f4d0e0ae993805f141f64cb8c73c5297311
               start_date: '2002-10-12T11:37:38Z'
@@ -3254,6 +3671,7 @@ landscape:
             homepage_url: https://www.cg-wire.com/
             repo_url: https://github.com/cgwire/kitsu
             logo: cgwire.svg
+            project_org: https://github.com/cgwire
             crunchbase: https://www.crunchbase.com/organization/cgwire
             crunchbase_data:
               name: CGWire
@@ -3276,33 +3694,112 @@ landscape:
                 - Software
                 - Video
             github_data:
+              description: We Make Production Management Easy
+              contributors_count: 298
+              contributions: >-
+                11;28;26;104;28;16;42;33;41;31;48;33;15;37;33;3;9;9;48;30;46;32;55;22;53;38;0;42;16;32;12;38;20;14;25;35;29;19;21;22;25;18;16;5;7;34;22;24;29;14;16;32
+              stars: 934
               languages:
-                - name: Vue
-                  value: 1425804
-                  color: '#2c3e50'
+                - name: C++
+                  value: 5723186
+                  color: '#f34b7d'
+                - name: Python
+                  value: 2740351
+                  color: '#3572A5'
                 - name: JavaScript
-                  value: 922150
+                  value: 1868170
                   color: '#f1e05a'
-                - name: SCSS
-                  value: 1879
+                - name: Vue
+                  value: 1488519
+                  color: '#2c3e50'
+                - name: M4
+                  value: 226533
+                - name: C
+                  value: 187421
+                  color: '#555555'
+                - name: Handlebars
+                  value: 128506
+                - name: CMake
+                  value: 80234
+                - name: Makefile
+                  value: 39263
+                  color: '#427819'
                 - name: HTML
-                  value: 1077
+                  value: 31007
                   color: '#e34c26'
-              contributions: 7;11;5;9;15;1;14;24;14;19;15;22;19;28;12;4;2;4;15;31;23;12;19;8;31;8;9;13;24;13;8;17;22;10;19;11;23;7;13;16;6;10;5;10;3;2;20;17;3;9;0;4
+                - name: CSS
+                  value: 29151
+                  color: '#563d7c'
+                - name: Stylus
+                  value: 26878
+                - name: Shell
+                  value: 14822
+                  color: '#89e051'
+                - name: Objective-C
+                  value: 13893
+                  color: '#438eff'
+                - name: Batchfile
+                  value: 12636
+                  color: '#C1F12E'
+                - name: SCSS
+                  value: 3777
+                - name: Dockerfile
+                  value: 3520
+                  color: '#384d54'
+                - name: R
+                  value: 1917
+                  color: '#198CE7'
+                - name: Mako
+                  value: 518
+                - name: QMake
+                  value: 346
+              latest_commit_link: /cgwire/kitsu/commit/ff6d02ecbce860f8c72fb7036bbc3b7839e50fc9
+              latest_commit_date: '2021-09-10T13:18:04Z'
               firstWeek: 2020-09-13Z
-              stars: 173
               license: GNU Affero General Public License v3.0
-              description: "Collaboration Platform for Animation\_Productions"
-              latest_commit_date: '2021-09-08T13:59:27Z'
-              latest_commit_link: /cgwire/kitsu/commit/baf4c8d305d9f8131f0dd5b553badb8ee00fe169
-              contributors_count: 20
               contributors_link: https://github.com/cgwire/kitsu/graphs/contributors
             repos:
               - url: https://github.com/cgwire/kitsu
                 stars: 173
+              - url: https://github.com/cgwire/awesome-cg-vfx-pipeline
+                stars: 500
+              - url: https://github.com/cgwire/zou
+                stars: 90
+              - url: https://github.com/cgwire/js-3d-model-viewer
+                stars: 64
+              - url: https://github.com/cgwire/gazu
+                stars: 54
+              - url: https://github.com/cgwire/cgwire
+                stars: 18
+              - url: https://github.com/cgwire/website
+                stars: 10
+              - url: https://github.com/cgwire/kitsu-publisher
+                stars: 10
+              - url: https://github.com/cgwire/cgwire-demo
+                stars: 6
+              - url: https://github.com/cgwire/awesome-kitsu
+                stars: 4
+              - url: https://github.com/cgwire/dccutils
+                stars: 2
+              - url: https://github.com/cgwire/generic-builds
+                stars: 1
+              - url: https://github.com/cgwire/pyqt-boilerplate
+                stars: 1
+              - url: https://github.com/cgwire/qtazu
+                stars: 1
+              - url: https://github.com/cgwire/moviepy
+                stars: 0
+              - url: https://github.com/cgwire/openexr
+                stars: 0
+              - url: https://github.com/cgwire/vue-websocket
+                stars: 0
+              - url: https://github.com/cgwire/kitsu-publisher-next
+                stars: 0
+              - url: https://github.com/cgwire/vuejs-datepicker
+                stars: 0
             github_start_commit_data:
-              start_commit_link: /cgwire/kitsu/commit/9a0b7ad50670a4410927d7f1269531b9a2f0a6a2
-              start_date: '2017-03-26T23:36:41Z'
+              start_commit_link: /cgwire/openexr/commit/6e37ef8aed4e20ea834f570845533b65a97a3bc4
+              start_date: '2003-01-21T06:34:28Z'
             image_data:
               fileName: cg-wire.svg
               hash: 2DX8VAeZ6ck5lxGlE7DqO6jtTmWbXJ4T0hTXpEK9uNc=
@@ -3682,6 +4179,7 @@ landscape:
             name: ForestFlow
             homepage_url: https://github.com/ForestFlow/ForestFlow
             repo_url: https://github.com/ForestFlow/ForestFlow
+            project_org: https://github.com/ForestFlow
             logo: forestflow.svg
             twitter: https://twitter.com/dwanimation
             crunchbase: https://www.crunchbase.com/organization/dreamworks-studios
@@ -3706,6 +4204,12 @@ landscape:
                 - Gaming
                 - Video Games
             github_data:
+              description: >-
+                ForestFlow offers a scalable policy-based cloud-native machine learning model server. It is hosted as an Incubation Project in the LF AI
+                Foundation.
+              contributors_count: 5
+              contributions: 0;0;0;0;1;1;0;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              stars: 51
               languages:
                 - name: Scala
                   value: 221192
@@ -3716,18 +4220,16 @@ landscape:
                 - name: Shell
                   value: 6021
                   color: '#89e051'
-              contributions: 0;0;0;0;1;0;1;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2020-09-13Z
-              stars: 51
-              license: Apache License 2.0
-              description: ForestFlow is a policy-driven Machine Learning Model Server. It is an LF AI Foundation incubation project.
-              latest_commit_date: '2021-06-04T04:38:54Z'
               latest_commit_link: /ForestFlow/ForestFlow/commit/e4ede8469ede9722373417041217322eee423356
-              contributors_count: 5
+              latest_commit_date: '2021-06-04T04:38:54Z'
+              firstWeek: 2020-09-13Z
+              license: Apache License 2.0
               contributors_link: https://github.com/ForestFlow/ForestFlow/graphs/contributors
             repos:
               - url: https://github.com/ForestFlow/ForestFlow
                 stars: 51
+              - url: https://github.com/ForestFlow/artwork
+                stars: 0
             github_start_commit_data:
               start_commit_link: /ForestFlow/ForestFlow/commit/357e4c41a9c09c4069d36ec4692e4463c2f1a5d0
               start_date: '2019-10-09T19:03:59Z'
@@ -3743,6 +4245,7 @@ landscape:
             name: Munki
             homepage_url: https://www.munki.org/munki/
             repo_url: https://github.com/munki/munki
+            project_org: https://github.com/munki
             logo: munki.svg
             crunchbase: https://www.crunchbase.com/organization/walt-disney-animation-studios
             crunchbase_data:
@@ -3769,42 +4272,62 @@ landscape:
                 - Media and Entertainment
               kind: market_cap
             github_data:
+              description: ''
+              contributors_count: 95
+              contributions: 16;10;9;8;10;4;2;4;16;5;4;10;31;7;0;0;1;1;4;0;12;9;2;5;17;3;3;0;1;2;1;0;2;7;5;0;9;2;0;1;0;0;0;0;0;0;0;0;0;0;0;0
+              stars: 5323
               languages:
                 - name: Python
-                  value: 978574
+                  value: 1426365
                   color: '#3572A5'
                 - name: Swift
                   value: 338866
                   color: '#ffac45'
                 - name: CSS
-                  value: 60999
+                  value: 118311
                   color: '#563d7c'
-                - name: Shell
-                  value: 50555
-                  color: '#89e051'
+                - name: JavaScript
+                  value: 112814
+                  color: '#f1e05a'
                 - name: HTML
-                  value: 24383
+                  value: 109233
                   color: '#e34c26'
+                - name: Shell
+                  value: 67577
+                  color: '#89e051'
                 - name: Objective-C
                   value: 14907
                   color: '#438eff'
-                - name: JavaScript
-                  value: 7024
-                  color: '#f1e05a'
-              contributions: 16;9;8;7;4;3;4;3;10;9;4;3;34;7;0;0;1;0;3;0;3;15;4;5;1;19;0;1;1;0;3;0;2;2;2;3;7;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2020-09-13Z
-              stars: 2459
-              license: Other
-              description: Managed software installation for macOS —
-              latest_commit_date: '2021-06-17T17:25:43Z'
               latest_commit_link: /munki/munki/commit/e8ccc5f53e8f69b59fbc153a783158a34ca6d1ea
-              release_date: '2021-06-09T21:55:57Z'
-              release_link: https://github.com/munki/munki/releases
-              contributors_count: 114
+              latest_commit_date: '2021-06-17T17:25:43Z'
+              firstWeek: 2020-09-13Z
+              license: Other
               contributors_link: https://github.com/munki/munki/graphs/contributors
             repos:
               - url: https://github.com/munki/munki
-                stars: 2459
+                stars: 2461
+              - url: https://github.com/munki/macadmin-scripts
+                stars: 1639
+              - url: https://github.com/munki/createOSXinstallPkg
+                stars: 315
+              - url: https://github.com/munki/munki-pkg
+                stars: 270
+              - url: https://github.com/munki/bootstrappr
+                stars: 198
+              - url: https://github.com/munki/installr
+                stars: 156
+              - url: https://github.com/munki/mwa2
+                stars: 138
+              - url: https://github.com/munki/munkiwebadmin
+                stars: 92
+              - url: https://github.com/munki/munki-facts
+                stars: 38
+              - url: https://github.com/munki/munki-pkg-projects
+                stars: 10
+              - url: https://github.com/munki/munki.github.io
+                stars: 5
+              - url: https://github.com/munki/contrib
+                stars: 1
             github_start_commit_data:
               start_commit_link: /munki/munki/commit/456efb8289f2e397a4139e6cca9b3d668b19212c
               start_date: '2009-01-14T21:31:03Z'
@@ -4205,6 +4728,7 @@ landscape:
             name: Embree
             homepage_url: https://www.embree.org
             repo_url: https://github.com/embree/embree
+            project_org: https://github.com/embree
             logo: embree.svg
             twitter: https://twitter.com/IntelSoftware
             crunchbase: https://www.crunchbase.com/organization/intel
@@ -4467,47 +4991,76 @@ landscape:
                 - Software
               kind: market_cap
             github_data:
+              description: null
+              contributors_count: 29
+              contributions: 11;15;9;13;6;3;5;7;12;7;1;18;3;0;0;0;0;7;13;2;5;1;4;21;15;2;4;3;1;2;27;2;1;5;2;0;0;1;3;1;0;0;1;0;0;0;1;3;1;0;0;0
+              stars: 1658
               languages:
                 - name: C++
-                  value: 9455250
+                  value: 13682137
                   color: '#f34b7d'
                 - name: C
-                  value: 732330
+                  value: 3309397
                   color: '#555555'
+                - name: JavaScript
+                  value: 352632
+                  color: '#f1e05a'
                 - name: CMake
-                  value: 165952
+                  value: 323825
+                - name: CSS
+                  value: 200313
+                  color: '#563d7c'
+                - name: Cuda
+                  value: 120374
+                  color: '#3A4E3A'
+                - name: HTML
+                  value: 104650
+                  color: '#e34c26'
                 - name: Python
-                  value: 59999
+                  value: 83720
                   color: '#3572A5'
+                - name: SCSS
+                  value: 79489
+                - name: Less
+                  value: 78481
                 - name: Shell
-                  value: 34280
+                  value: 45090
                   color: '#89e051'
                 - name: Objective-C
                   value: 13594
                   color: '#438eff'
                 - name: Makefile
-                  value: 6237
+                  value: 6899
                   color: '#427819'
+                - name: TeX
+                  value: 6037
+                  color: '#3D6117'
                 - name: Batchfile
                   value: 1809
                   color: '#C1F12E'
-              contributions: 7;22;6;15;7;2;2;11;3;16;0;5;17;0;0;0;0;2;11;6;1;5;4;9;24;0;6;1;2;1;15;14;1;5;2;0;0;0;0;1;0;0;0;1;0;0;0;4;0;0;0;0
-              firstWeek: 2020-09-13Z
-              stars: 1552
-              license: Apache License 2.0
-              description: Embree ray tracing kernels repository.
-              latest_commit_date: '2021-08-13T01:35:12Z'
               latest_commit_link: /embree/embree/commit/12b99393438a4cc9e478e33459eed78bec6233fd
-              release_date: '2021-08-13T14:27:23Z'
-              release_link: https://github.com/embree/embree/releases
-              contributors_count: 43
+              latest_commit_date: '2021-08-13T01:35:12Z'
+              firstWeek: 2020-09-13Z
+              license: Apache License 2.0
               contributors_link: https://github.com/embree/embree/graphs/contributors
             repos:
               - url: https://github.com/embree/embree
-                stars: 1552
+                stars: 1553
+              - url: https://github.com/embree/embree-renderer
+                stars: 91
+              - url: https://github.com/embree/embree-benchmark-protoray
+                stars: 7
+              - url: https://github.com/embree/embree.github.com
+                stars: 4
+              - url: https://github.com/embree/embree-renderer-bin
+                stars: 2
+              - url: https://github.com/embree/embree-benchmark
+                stars: 1
+              - url: https://github.com/embree/models
+                stars: 0
             github_start_commit_data:
-              start_commit_link: /embree/embree/commit/97540553c192c0dc9efa4d72c04d35fcad0e93aa
-              start_date: '2012-11-30T22:07:39Z'
+              start_commit_link: /embree/embree.github.com/commit/ce0c1154d7dcacd1f13d598ed05e46dc0ce7d1d8
+              start_date: '2012-11-29T22:51:42Z'
             yahoo_finance_data:
               market_cap: 217333481472
               effective_ticker: INTC
@@ -4524,6 +5077,7 @@ landscape:
             homepage_url: http://www.materialx.org/
             project: graduated
             repo_url: https://github.com/materialx/MaterialX
+            project_org: https://github.com/materialx
             logo: materialx.svg
             twitter: https://twitter.com/MaterialXCG
             crunchbase: https://www.crunchbase.com/organization/academy-software-foundation
@@ -4549,9 +5103,13 @@ landscape:
                 - Open Source
                 - Software
             github_data:
+              description: null
+              contributors_count: 23
+              contributions: 0;3;6;4;4;2;1;2;10;1;4;1;7;4;0;0;0;0;0;0;6;7;1;8;8;2;1;0;0;0;0;2;1;2;3;5;1;2;1;4;3;2;0;3;0;11;0;0;4;7;3;2
+              stars: 780
               languages:
                 - name: C++
-                  value: 3295837
+                  value: 3296686
                   color: '#f34b7d'
                 - name: Python
                   value: 134870
@@ -4560,22 +5118,16 @@ landscape:
                   value: 98253
                   color: '#555555'
                 - name: GLSL
-                  value: 85994
+                  value: 88383
                 - name: CMake
                   value: 77800
                 - name: Objective-C
                   value: 8057
                   color: '#438eff'
-              contributions: 0;3;3;7;3;1;3;2;8;2;5;0;5;5;2;0;0;0;0;0;3;9;2;5;11;0;3;0;0;0;0;2;0;2;4;4;2;2;1;1;3;5;0;2;1;11;0;0;4;5;3;3
+              latest_commit_link: /materialx/MaterialX/commit/c9397bdf16617b7b1b3506b88471173358d73fc0
+              latest_commit_date: '2021-09-10T18:17:34Z'
               firstWeek: 2020-09-13Z
-              stars: 780
               license: Other
-              description: MaterialX is an open standard for transfer of rich material and look-development content between applications and renderers.
-              latest_commit_date: '2021-09-06T23:40:54Z'
-              latest_commit_link: /materialx/MaterialX/commit/dbba4a1325542ff93de1d8c8b3253a8243ec4db2
-              release_date: '2021-06-18T18:32:58Z'
-              release_link: https://github.com/materialx/MaterialX/releases
-              contributors_count: 27
               contributors_link: https://github.com/materialx/MaterialX/graphs/contributors
             repos:
               - url: https://github.com/materialx/MaterialX
@@ -4885,6 +5437,7 @@ landscape:
             name: CGRU
             homepage_url: https://cgru.info/
             repo_url: https://github.com/CGRU/cgru
+            project_org: https://github.com/CGRU
             logo: cgru.svg
             crunchbase: https://www.crunchbase.com/organization/cgru
             crunchbase_data:
@@ -4904,31 +5457,35 @@ landscape:
               company_type: Non Profit
               industries: []
             github_data:
+              description: null
+              contributors_count: 39
+              contributions: 7;6;10;9;1;6;5;3;7;0;5;2;3;1;0;0;1;13;7;20;47;11;22;14;30;10;16;19;16;17;17;11;2;10;3;0;0;6;5;4;0;5;21;13;3;9;9;16;19;0;5;6
+              stars: 228
               languages:
                 - name: C++
                   value: 2833551
                   color: '#f34b7d'
                 - name: Python
-                  value: 1259460
+                  value: 1263188
                   color: '#3572A5'
                 - name: JavaScript
-                  value: 936807
+                  value: 974941
                   color: '#f1e05a'
+                - name: HTML
+                  value: 437926
+                  color: '#e34c26'
                 - name: QML
                   value: 261160
                   color: '#44a51c'
+                - name: CSS
+                  value: 85405
+                  color: '#563d7c'
                 - name: PHP
                   value: 80484
                   color: '#4F5D95'
                 - name: Shell
-                  value: 77424
+                  value: 78212
                   color: '#89e051'
-                - name: CSS
-                  value: 73117
-                  color: '#563d7c'
-                - name: HTML
-                  value: 67469
-                  color: '#e34c26'
                 - name: C
                   value: 34466
                   color: '#555555'
@@ -4951,23 +5508,22 @@ landscape:
                 - name: Lua
                   value: 2526
                   color: '#000080'
+                - name: Vim script
+                  value: 846
+                  color: '#199f4b'
                 - name: Makefile
                   value: 405
                   color: '#427819'
-              contributions: 7;5;7;10;0;7;5;0;8;2;4;3;3;0;1;0;0;12;2;10;32;8;23;9;30;12;10;20;14;21;16;11;3;10;1;2;0;2;9;3;1;1;22;12;6;9;6;13;11;9;4;5
+              latest_commit_link: /CGRU/cgru/commit/67711234eb37975e4c0accac1d6957dc4ec5eedd
+              latest_commit_date: '2021-09-10T10:48:41Z'
               firstWeek: 2020-09-13Z
-              stars: 216
               license: GNU Lesser General Public License v3.0
-              description: CGRU - AFANASY
-              latest_commit_date: '2021-09-08T13:11:28Z'
-              latest_commit_link: /CGRU/cgru/commit/c3e6fe97c0d3bd1bac762f2f1c7d4da42f83affd
-              release_date: '2021-08-19T05:38:57Z'
-              release_link: https://github.com/CGRU/cgru/releases
-              contributors_count: 70
               contributors_link: https://github.com/CGRU/cgru/graphs/contributors
             repos:
               - url: https://github.com/CGRU/cgru
-                stars: 216
+                stars: 217
+              - url: https://github.com/CGRU/cgru.github.com
+                stars: 11
             github_start_commit_data:
               start_commit_link: /CGRU/cgru/commit/19878b6c4f238fc60a49f20bc3ee0792a9d25340
               start_date: '2012-03-02T10:51:23Z'
@@ -5015,24 +5571,26 @@ landscape:
                   color: '#b07219'
                 - name: PLpgSQL
                   value: 125119
+                - name: HTML
+                  value: 22580
+                  color: '#e34c26'
                 - name: Shell
-                  value: 22023
+                  value: 22417
                   color: '#89e051'
                 - name: Dockerfile
                   value: 16954
                   color: '#384d54'
-                - name: HTML
-                  value: 9406
-                  color: '#e34c26'
+                - name: SCSS
+                  value: 3895
                 - name: Vim script
                   value: 2297
                   color: '#199f4b'
                 - name: CSS
                   value: 1604
                   color: '#563d7c'
-              contributions: 0;0;4;1;2;9;7;1;0;8;0;2;1;16;5;0;0;1;7;9;8;8;3;6;1;0;0;4;0;6;7;2;9;1;0;0;4;0;3;1;3;1;0;0;6;0;10;0;0;0;1;0
+              contributions: 0;3;2;2;9;1;7;1;5;3;0;3;6;16;1;0;0;2;10;11;4;7;5;6;1;0;0;4;3;6;6;2;11;1;1;4;1;0;4;1;3;1;0;0;6;4;12;0;0;0;1;0
               firstWeek: 2020-09-13Z
-              stars: 630
+              stars: 641
               license: Apache License 2.0
               description: A render management system you can deploy for visual effects and animation productions.
               latest_commit_date: '2021-08-29T21:17:21Z'
@@ -5043,7 +5601,9 @@ landscape:
               contributors_link: https://github.com/AcademySoftwareFoundation/OpenCue/graphs/contributors
             repos:
               - url: https://github.com/AcademySoftwareFoundation/OpenCue
-                stars: 630
+                stars: 631
+              - url: https://github.com/AcademySoftwareFoundation/opencue.io
+                stars: 10
             github_start_commit_data:
               start_commit_link: /AcademySoftwareFoundation/OpenCue/commit/ea128e00aa7127b9ba7e19f82cc7fd6627f4c155
               start_date: '2018-05-16T23:55:35Z'
@@ -5255,6 +5815,15 @@ landscape:
                 - name: Batchfile
                   value: 194966
                   color: '#C1F12E'
+                - name: JavaScript
+                  value: 122190
+                  color: '#f1e05a'
+                - name: CSS
+                  value: 49381
+                  color: '#563d7c'
+                - name: HTML
+                  value: 41688
+                  color: '#e34c26'
                 - name: Python
                   value: 38890
                   color: '#3572A5'
@@ -5270,20 +5839,22 @@ landscape:
                 - name: C
                   value: 11861
                   color: '#555555'
-              contributions: 5;15;7;4;5;6;28;8;22;28;14;6;21;16;63;5;1;27;15;6;29;36;10;32;25;15;42;30;32;5;29;5;14;19;15;28;9;23;16;24;2;6;0;7;7;7;0;3;11;1;7;5
+              contributions: 1;16;7;4;4;9;30;5;28;29;7;16;26;43;41;0;9;25;12;12;49;12;24;22;25;19;46;30;29;10;27;7;24;8;26;16;11;22;29;12;6;1;3;8;7;5;0;4;10;1;9;3
               firstWeek: 2020-09-13Z
-              stars: 1492
+              stars: 1496
               license: Mozilla Public License 2.0
               description: OpenVDB - Sparse volume data structure and tools
               latest_commit_date: '2021-09-07T17:59:43Z'
               latest_commit_link: /AcademySoftwareFoundation/openvdb/commit/ee2090ea0ceaa3aa78b313ea6a19299e8ad6ec55
               release_date: '2021-06-11T21:43:41Z'
               release_link: https://github.com/AcademySoftwareFoundation/openvdb/releases
-              contributors_count: 43
+              contributors_count: 40
               contributors_link: https://github.com/AcademySoftwareFoundation/openvdb/graphs/contributors
             repos:
               - url: https://github.com/AcademySoftwareFoundation/openvdb
-                stars: 1492
+                stars: 1494
+              - url: https://github.com/AcademySoftwareFoundation/openvdb-website
+                stars: 2
             github_start_commit_data:
               start_commit_link: /AcademySoftwareFoundation/openvdb/commit/b2af9eb1e91715445a4e18e67c07b70ad0609d3f
               start_date: '2013-04-12T19:13:20Z'
@@ -5436,6 +6007,7 @@ landscape:
             name: Bullet Physics
             homepage_url: https://pybullet.org/wordpress
             repo_url: https://github.com/bulletphysics/bullet3
+            project_org: https://github.com/bulletphysics
             logo: bullet.svg
             crunchbase: https://www.crunchbase.com/organization/bullet-physics
             crunchbase_data:
@@ -5456,6 +6028,10 @@ landscape:
               industries:
                 - Software
             github_data:
+              description: Bullet Physics development team
+              contributors_count: 197
+              contributions: 31;19;6;12;2;2;11;3;13;10;7;6;2;4;6;0;0;2;7;2;0;22;0;2;22;6;3;7;0;12;7;24;12;8;5;0;0;0;0;2;0;0;0;0;0;2;1;0;3;1;8;0
+              stars: 8486
               languages:
                 - name: C++
                   value: 9985989
@@ -5463,16 +6039,16 @@ landscape:
                 - name: C
                   value: 1514129
                   color: '#555555'
+                - name: Python
+                  value: 169840
+                  color: '#3572A5'
                 - name: CMake
                   value: 140855
                 - name: Lua
                   value: 108564
                   color: '#000080'
-                - name: Python
-                  value: 77285
-                  color: '#3572A5'
                 - name: Batchfile
-                  value: 15710
+                  value: 16593
                   color: '#C1F12E'
                 - name: Shell
                   value: 13267
@@ -5480,20 +6056,19 @@ landscape:
                 - name: Makefile
                   value: 5001
                   color: '#427819'
-              contributions: 26;20;8;12;4;1;7;8;2;19;6;3;7;4;7;0;0;0;9;1;1;22;0;1;14;12;6;2;5;10;7;13;25;0;13;0;0;0;0;2;0;0;0;0;0;0;3;0;1;3;6;2
-              firstWeek: 2020-09-13Z
-              stars: 8325
-              license: Other
-              description: 'Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, machine learning etc.'
-              latest_commit_date: '2021-09-03T01:03:23Z'
+                - name: HTML
+                  value: 223
+                  color: '#e34c26'
               latest_commit_link: /bulletphysics/bullet3/commit/b638300fe41f0a44d3edb766772044c7b3056d7d
-              release_date: '2020-11-26T22:27:00Z'
-              release_link: https://github.com/bulletphysics/bullet3/releases
-              contributors_count: 267
+              latest_commit_date: '2021-09-03T01:03:23Z'
+              firstWeek: 2020-09-13Z
+              license: Other
               contributors_link: https://github.com/bulletphysics/bullet3/graphs/contributors
             repos:
               - url: https://github.com/bulletphysics/bullet3
-                stars: 8325
+                stars: 8336
+              - url: https://github.com/bulletphysics/pybullet_robots
+                stars: 150
             github_start_commit_data:
               start_commit_link: /bulletphysics/bullet3/commit/e061ec1ebfbf3fd331e8a01ba2b05be123884639
               start_date: '2006-05-25T19:18:29Z'
@@ -5576,6 +6151,7 @@ landscape:
             name: CGAL (Computational Geometry Algorithms Library)
             homepage_url: https://www.cgal.org/
             repo_url: https://github.com/CGAL/cgal
+            project_org: https://github.com/CGAL
             logo: cgal.svg
             crunchbase: https://www.crunchbase.com/organization/computational-geometry-algorithms-library
             crunchbase_data:
@@ -5598,86 +6174,144 @@ landscape:
                 - Robotics
                 - Software
             github_data:
+              description: CGAL is a software project that provides easy access to efficient and reliable geometric algorithms in the form of a C++ library.
+              contributors_count: 155
+              contributions: >-
+                106;189;260;315;255;234;263;220;157;111;140;237;151;158;37;32;193;148;198;217;275;143;246;88;294;152;131;282;136;230;96;189;249;170;84;176;122;104;117;157;120;172;78;22;142;203;114;151;63;111;153;74
+              stars: 2941
               languages:
+                - name: HTML
+                  value: 177117054
+                  color: '#e34c26'
                 - name: C++
-                  value: 61204456
+                  value: 171257854
                   color: '#f34b7d'
+                - name: JavaScript
+                  value: 8827962
+                  color: '#f1e05a'
                 - name: TypeScript
-                  value: 2294630
+                  value: 4589260
                   color: '#2b7489'
                 - name: CMake
-                  value: 833096
-                - name: Shell
-                  value: 338300
-                  color: '#89e051'
+                  value: 1987844
                 - name: C
-                  value: 177856
+                  value: 1873571
                   color: '#555555'
                 - name: TeX
-                  value: 126049
+                  value: 967801
                   color: '#3D6117'
+                - name: CSS
+                  value: 825276
+                  color: '#563d7c'
+                - name: Shell
+                  value: 765763
+                  color: '#89e051'
                 - name: Perl
-                  value: 123469
+                  value: 367474
                   color: '#0298c3'
+                - name: SWIG
+                  value: 295593
                 - name: Python
-                  value: 75133
+                  value: 252707
                   color: '#3572A5'
                 - name: Makefile
-                  value: 56647
+                  value: 127693
                   color: '#427819'
+                - name: Bison
+                  value: 100846
                 - name: GLSL
-                  value: 45110
-                - name: HTML
-                  value: 42011
-                  color: '#e34c26'
+                  value: 93703
                 - name: Batchfile
-                  value: 32414
+                  value: 64828
                   color: '#C1F12E'
-                - name: JavaScript
-                  value: 26163
-                  color: '#f1e05a'
-                - name: Lua
-                  value: 24677
-                  color: '#000080'
+                - name: ApacheConf
+                  value: 59808
                 - name: Ruby
-                  value: 20353
+                  value: 52513
                   color: '#701516'
+                - name: Lua
+                  value: 49354
+                  color: '#000080'
+                - name: Dockerfile
+                  value: 44863
+                  color: '#384d54'
                 - name: Lex
-                  value: 15883
+                  value: 31766
                   color: '#DBCA00'
+                - name: PHP
+                  value: 25570
+                  color: '#4F5D95'
                 - name: Roff
-                  value: 11966
+                  value: 25137
                   color: '#ecdebe'
                 - name: Yacc
-                  value: 11073
+                  value: 22146
                   color: '#4B6C4B'
-                - name: CSS
-                  value: 6653
-                  color: '#563d7c'
+                - name: Perl 6
+                  value: 12529
+                  color: '#0000fb'
                 - name: Gnuplot
-                  value: 4218
+                  value: 8883
                   color: '#f0a9f0'
+                - name: Tcl
+                  value: 2180
+                  color: '#e4cc98'
+                - name: NSIS
+                  value: 1090
+                - name: VHDL
+                  value: 857
+                  color: '#adb2cb'
+                - name: Java
+                  value: 558
+                  color: '#b07219'
                 - name: sed
-                  value: 170
+                  value: 340
                   color: '#64b970'
                 - name: Arc
-                  value: 38
+                  value: 76
                   color: '#aa2afe'
-              contributions: >-
-                95;58;121;140;155;128;115;128;78;68;37;107;119;67;43;11;65;66;90;87;142;99;79;99;142;75;42;143;65;106;60;80;98;98;69;60;53;71;40;72;45;100;41;19;55;71;88;23;58;45;47;17
+              latest_commit_link: /CGAL/cgal/commit/8c9fc331cd0e523f897f830da480483b6fb70d5d
+              latest_commit_date: '2021-09-10T15:51:35Z'
               firstWeek: 2020-09-13Z
-              stars: 2674
               license: Other
-              description: The public CGAL repository, see the README below
-              latest_commit_date: '2021-09-08T14:04:30Z'
-              latest_commit_link: /CGAL/cgal/commit/543100d5490e9ee62921c60b872a6912a294cde3
-              release_date: '2021-07-06T12:29:35Z'
-              release_link: https://github.com/CGAL/cgal/releases
-              contributors_count: 256
               contributors_link: https://github.com/CGAL/cgal/graphs/contributors
             repos:
               - url: https://github.com/CGAL/cgal
-                stars: 2674
+                stars: 2677
+              - url: https://github.com/CGAL/cgal-swig-bindings
+                stars: 208
+              - url: https://github.com/CGAL/cgal-paraview-plugins
+                stars: 15
+              - url: https://github.com/CGAL/cgal-public-dev
+                stars: 12
+              - url: https://github.com/CGAL/releases
+                stars: 8
+              - url: https://github.com/CGAL/cgal-testsuite-dockerfiles
+                stars: 5
+              - url: https://github.com/CGAL/LAStools
+                stars: 5
+              - url: https://github.com/CGAL/cgal-web
+                stars: 4
+              - url: https://github.com/CGAL/bundle-CGAL-3D-demo
+                stars: 3
+              - url: https://github.com/CGAL/cgal-nsis-dockerfile
+                stars: 2
+              - url: https://github.com/CGAL/cgal-dev
+                stars: 1
+              - url: https://github.com/CGAL/cgal.github.io
+                stars: 1
+              - url: https://github.com/CGAL/doxygen
+                stars: 0
+              - url: https://github.com/CGAL/python-github-webhooks
+                stars: 0
+              - url: https://github.com/CGAL/cgal-documentation-dockerfile
+                stars: 0
+              - url: https://github.com/CGAL/cgal-mediawiki-docker
+                stars: 0
+              - url: https://github.com/CGAL/conan-mpfr
+                stars: 0
+              - url: https://github.com/CGAL/conan-gmp
+                stars: 0
             github_start_commit_data:
               start_commit_link: /CGAL/cgal/commit/43dff0ce60d6af9a97582d175ba401b4dd1c0f5c
               start_date: '1995-08-09T16:58:01Z'
@@ -5873,7 +6507,6 @@ landscape:
             name: Adobe Inc.
             homepage_url: https://adobe.com/
             logo: adobe_inc.svg
-            twitter: https://twitter.com/Adobe
             crunchbase: https://www.crunchbase.com/organization/adobe-systems
             crunchbase_data:
               name: Adobe
@@ -6157,7 +6790,6 @@ landscape:
             name: Autodesk
             homepage_url: https://autodesk.com/
             logo: autodesk.svg
-            twitter: https://twitter.com/autodesk
             crunchbase: https://www.crunchbase.com/organization/autodesk
             crunchbase_data:
               name: Autodesk
@@ -6358,7 +6990,6 @@ landscape:
             name: DNEG
             homepage_url: https://dneg.com/
             logo: dneg.svg
-            twitter: https://twitter.com/dneg
             crunchbase: https://www.crunchbase.com/organization/double-negative
             crunchbase_data:
               name: DNEG
@@ -7072,7 +7703,6 @@ landscape:
             name: Intel Corporation
             homepage_url: https://www.intel.com/content/www/us/en/homepage.html
             logo: intel_corporation.svg
-            twitter: https://twitter.com/intel
             crunchbase: https://www.crunchbase.com/organization/intel
             crunchbase_data:
               name: Intel
@@ -7347,7 +7977,6 @@ landscape:
             name: Microsoft Corporation
             homepage_url: https://www.microsoft.com/en-us
             logo: microsoft_corporation.svg
-            twitter: https://twitter.com/Microsoft
             crunchbase: https://www.crunchbase.com/organization/microsoft
             crunchbase_data:
               name: Microsoft
@@ -7917,7 +8546,6 @@ landscape:
             name: Netflix, Inc.
             homepage_url: https://netflix.com/
             logo: netflix_inc.svg
-            twitter: https://twitter.com/netflix
             crunchbase: https://www.crunchbase.com/organization/netflix
             crunchbase_data:
               name: Netflix
@@ -7961,7 +8589,6 @@ landscape:
             name: NVIDIA Corporation
             homepage_url: https://www.nvidia.com/en-us
             logo: nvidia_corporation.svg
-            twitter: https://twitter.com/nvidia
             crunchbase: https://www.crunchbase.com/organization/nvidia
             crunchbase_data:
               name: NVIDIA
@@ -8157,7 +8784,6 @@ landscape:
             name: Unity Technologies
             homepage_url: https://unity.com
             logo: unity_technologies.svg
-            twitter: https://twitter.com/unity3d
             crunchbase: https://www.crunchbase.com/organization/unity-technologies
             crunchbase_data:
               name: Unity Technologies
@@ -8347,7 +8973,6 @@ landscape:
             name: ftrack AB
             homepage_url: https://www.ftrack.com/en
             logo: ftrack_ab.svg
-            twitter: https://twitter.com/ftrackhq
             crunchbase: https://www.crunchbase.com/organization/ftrack
             crunchbase_data:
               name: ftrack
@@ -8523,7 +9148,6 @@ landscape:
             name: RodeoFX
             homepage_url: https://rodeofx.com/
             logo: rodeofx.svg
-            twitter: https://twitter.com/FXRodeo
             crunchbase: https://www.crunchbase.com/organization/rodeo-fx
             crunchbase_data:
               name: Rodeo FX
@@ -8560,7 +9184,6 @@ landscape:
             name: SideFX (Side Effects Software Inc)
             homepage_url: https://sidefx.com/
             logo: sidefx_side_effects_software_inc.svg
-            twitter: https://twitter.com/sidefx
             crunchbase: https://www.crunchbase.com/organization/side-effects-software-inc
             crunchbase_data:
               name: SideFX
@@ -8797,7 +9420,6 @@ landscape:
             name: Visual Effects Society
             homepage_url: https://visualeffectssociety.com/
             logo: visual_effects_society.svg
-            twitter: https://twitter.com/VFXSociety
             crunchbase: https://www.crunchbase.com/organization/visual-effects-society
             crunchbase_data:
               name: Visual Effects Society
